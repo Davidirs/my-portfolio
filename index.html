@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/9fd95bcc65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img class="logo" src="images/foto.jpeg" height="50">
+                <li class="title">DAVID ISACC REYES</li>
+                <li><a ><i class="fa-brands fa-windows"></i> Windows 11</a></li>
+                <li><a id="ocultar" ><i class="fa-solid fa-angle-up"></i> Ocultar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+
+        <ul class=" flex-space">
+
+            <li><a><img src="/images/iconos/bin.png" width="40px" alt=""></a>Papelera</li>
+            <li><a><img src="/images/iconos/pc.png" width="40px" alt="">Equipo</a></li>
+            <li><a href="presentacion-personal.html"><img src="/images/iconos/chrome.png" width="40px"
+                        alt="">presentacion.html</a></li>
+            <li><a href="#"><img src="/images/iconos/pdf.png" width="40px" alt="">cv.pdf</a></li>
+            <li><a href="https://wa.me/00584268691664"><img src="/images/iconos/whatsapp.png" width="40px"
+                        alt="">WhatsApp</a></li>
+
+        </ul>
+    </aside>
+
+    <section id="inicio" class="white">
+        <div class="arriba">
+
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Type here to search">
+            </div>
+
+            <ul class=" flex-space-between">
+                <li><a>Pinned</a></li>
+                <li><a class="white-white">All apps <i class="fa-solid fa-angle-right small"></i></a></li>
+            </ul>
+
+            <ul class=" flex-space">
+
+                <li><a href="https://www.linkedin.com/in/david-isacc-reyes/"><img src="/images/iconos/linkedin.png" width="40px" alt=""></a>linkedin</li>
+                <li><a href="https://github.com/Davidirs"><img src="/images/iconos/github.png" width="40px" alt=""></a>GitHub</li>
+
+                <li><a href="presentacion-personal.html"><img src="/images/iconos/chrome.png" width="40px"
+                            alt="">presentacion.html</a></li>
+                <li><a href="#"><img src="/images/iconos/pdf.png" width="40px" alt="">cv.pdf</a></li>
+                <li><a href="https://wa.me/00584268691664"><img src="/images/iconos/whatsapp.png" width="40px"
+                            alt="">WhatsApp</a></li>
+
+
+            </ul>
+            <hr><a href="tel:+584268691664">
+                <i class="fa-solid fa-phone"></i> +58 426 8691664
+            </a>
+            <hr><a href="mailto:reyisacc@gmail.com">
+                <i class="fa-regular fa-envelope"></i> reyisacc@gmail.com
+            </a>
+            <hr><a href="#"><i class="fa-solid fa-globe"></i>
+                www.misitio.com
+            </a>
+            <hr><!-- 
+            Experiencia:
+            <hr>
+            Habilidades: 
+            <hr> -->
+
+        </div>
+
+        <div class="abajo">
+            <hr><a id="user" href="presentacion-personal.html">
+                <img src="/images/foto.jpeg" width="35px" height="35px" alt="">
+                David Isacc Reyes</a>
+            <a id="power">
+                <i class="fa-solid fa-power-off"></i>
+            </a>
+
+
+        </div>
+    </section>
+
+    <footer >
+        <nav>
+            <ul>
+                <li class="active"><a>
+                        <img src="/images/iconos/windows.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/search.png" width="20px" alt="">
+                    </a></li>
+                <li><a href="mailto:reyisacc@gmail.com" title="Enviar correo">
+                        <img src="/images/iconos/email.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/folder.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/edge.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/store.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/office.png" width="20px" alt="">
+                    </a></li>
+                <li><a>
+                        <img src="/images/iconos/settings.png" width="20px" alt="">
+                    </a></li>
+        </nav>
+
+        <section id="icon-bar">
+
+            <div class="icono">
+                <ul>
+                    <li>
+                        <a><i class="fa-solid fa-angle-up"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa-solid fa-cloud"></i></a>
+                    </li>
+                    <li>
+                        <a>ESP</a>
+                    </li>
+                    <li>
+                        <a><i class="fa-solid fa-wifi"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa-solid fa-volume-high"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa-solid fa-battery-full"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <a id="current_date">6/4/2023 </a>
+                <a id="current_time">2:07:05 p. m.</a>
+            </div>
+
+            <!--   <script>
+                var today = new Date();
+                var fecha = today.toLocaleDateString('es-US');
+                var hora = today.toLocaleTimeString('es-US');
+
+                document.getElementById("current_date").innerHTML = fecha;
+                document.getElementById("current_time").innerHTML = hora;
+            </script> -->
+        </section>
+    </footer>
+</body>
+
+</html>

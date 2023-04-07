@@ -1,0 +1,159 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+header{
+    background-image:url(https://blog.openclassrooms.com/es/wp-content/uploads/sites/5/2017/09/AdobeStock_126016889apaisado.jpg)
+    ;
+    background-size:cover;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+#imgTitle{
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,123,255,1) 100%);
+    text-align: center;
+    padding: 1%;
+}
+#imgTitle ul li{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+#foto{
+    display: block; 
+    border: 1px #007bff solid;
+    border-radius: 20%;
+    margin: 1%;
+}
+
+h1{ display: block;
+    size: 20%;
+    color: #fff;
+    
+  -webkit-text-stroke: .5px rgba(0,0,0,.7);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #007bff;
+    
+  -webkit-text-stroke: .5px rgba(0,0,0,.7);
+    background-color: #ddd;
+background: rgb(221,221,221,0);
+background: linear-gradient(-90deg, rgba(0,123,255,1) 0%, rgba(221,221,221,1) 80%);
+    padding: 10px;
+   /* border:  1px solid #007bff;*/
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+h2 i{
+    padding-right: 10px;
+}
+nav{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav li a{
+    display: block;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    
+    background-color: #007bff;
+    border: 0.5px solid white;
+    border-radius: 5px;
+
+}
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+article{
+    padding: 1%;
+    background-color: white;
+    box-shadow:
+    inset/*  0 -3em 3em rgba(0,0,0,0.1), */
+          0 0  0 1px rgb(255,255,255),
+          0.1em 0.1em 0.5em rgba(0,0,0,0.3);
+}
+
+footer{
+    
+    color: #007bff;
+    background-color: #ddd;
+    padding: 5px;
+    border-top: 3px solid black;
+    
+}
+
+#contact ul li a{
+color: #007bff;
+}
+
+.icons i {
+text-align: center;
+vertical-align: middle;
+padding: 5px;
+font-size: large;
+color: #fff;
+background-color: #007bff;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+.icons li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.flotante{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color: #007bff;
+    border-radius: 50%;text-align: center;
+}
+
+.flotante a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
