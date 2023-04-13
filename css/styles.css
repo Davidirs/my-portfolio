@@ -25,6 +25,9 @@
 .blue2{
     background-color: #8ab2e3;
 }
+.black{
+    background-color: #555;
+}
 
 
 
@@ -273,7 +276,7 @@ vertical-align: middle;
     background-color: white;
     border-bottom: 2px solid #0251ad;
 }
-header{
+header nav{
     height: 40px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.392);
@@ -297,4 +300,44 @@ header{
 #ocultar{
     position: static;
     right: 0;
+}
+.hidden{
+display:none;
+}
+#mostrar{
+    background-color: rgba(255, 255, 255, 0.392);
+    padding: 0px 5px 5px 5px;
+    border-radius: 0 0 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0251ad;
+    font-size: large;
+}
+#mostrar:active{
+    background-color: white;
+    border-bottom: 2px solid #0251ad;
+}
+#store{
+    position: absolute;
+    border-radius: 5px;
+    width: 70%;
+    height: 90%;
+    left: 15%;
+    right: 15%;
+    bottom: 50px;
+}
+#store #barra ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    vertical-align: middle;
+}
+#store #barra ul li a {
+    vertical-align: middle;
+    color: white;
+}
+
+#logo-store{
+    position: absolute;
 }
