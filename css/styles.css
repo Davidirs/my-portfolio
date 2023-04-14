@@ -81,7 +81,7 @@ vertical-align: middle;
 
 body{
     margin: 0;
-    background-image:url("/images/bg.jpg");
+    background-image:url("/img/bg.jpg");
     background-color: #e1e6f9;
     background-repeat:no-repeat;	
     
@@ -122,6 +122,9 @@ nav li:active{
 }
  footer li:hover{
     background-color:white/* rgb(225, 255, 240); */
+}
+footer img {
+    width: 20px;
 }
 nav li a{
     display: block;
