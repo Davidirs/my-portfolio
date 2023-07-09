@@ -81,7 +81,7 @@ vertical-align: middle;
 
 body{
     margin: 0;
-    background-image:url("/img/bg.jpg");
+    background-image:url("img/bg.jpg");
     background-color: #e1e6f9;
     background-repeat:no-repeat;	
     
